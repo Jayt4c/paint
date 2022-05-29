@@ -11,6 +11,9 @@ body {
 .about-widget img{
   width: 8em;
 }
+.navbar>.container{
+  background: #fff;
+}
 
 @media (min-width: 768px) {
   .expanded {
@@ -244,7 +247,7 @@ header.nav-scrolled .main-navigation .navbar-nav .nav-item .active {
 }
 
 .navbar-light {
-  padding: 10px 0px;
+  padding: 0px 0px;
 }
 
 @media (min-width: 992px) {
