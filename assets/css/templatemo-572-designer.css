@@ -6,13 +6,14 @@ body {
   max-width: 1320px;
 }
 .navbar-brand img{
-  width: 5em;
+  width: 3em;
+  height: 3em;
 }
 .about-widget img{
   width: 8em;
 }
 .navbar>.container{
-  background: #fff;
+  background: #464646;
 }
 
 @media (min-width: 768px) {
@@ -496,39 +497,39 @@ section.explore-work .right-content ul li ul.info li em {
   }
 }
 
-section.whats-trending .section-heading,
-section.whats-trending .left-content {
+section.whats-Pictures .section-heading,
+section.whats-Pictures .left-content {
   margin-right: 0px;
 }
 
 @media (min-width: 992px) {
-  section.whats-trending .section-heading,
-  section.whats-trending .left-content {
+  section.whats-Pictures .section-heading,
+  section.whats-Pictures .left-content {
     margin-right: 100px;
   }
 }
 
-section.whats-trending .section-heading p,
-section.whats-trending .left-content p {
+section.whats-Pictures .section-heading p,
+section.whats-Pictures .left-content p {
   margin-bottom: 30px;
 }
 
-section.whats-trending .right-image {
+section.whats-Pictures .right-image {
   position: relative;
   display: none;
 }
 
 @media (min-width: 992px) {
-  section.whats-trending .right-image {
+  section.whats-Pictures .right-image {
     display: inline-block;
   }
 }
 
-section.whats-trending .right-image .thumb {
+section.whats-Pictures .right-image .thumb {
   position: relative;
 }
 
-section.whats-trending .right-image .thumb .hover-effect {
+section.whats-Pictures .right-image .thumb .hover-effect {
   position: absolute;
   left: 0;
   right: 0;
@@ -542,7 +543,7 @@ section.whats-trending .right-image .thumb .hover-effect {
   transition: all .5s;
 }
 
-section.whats-trending .right-image .thumb .hover-effect .inner-content {
+section.whats-Pictures .right-image .thumb .hover-effect .inner-content {
   position: absolute;
   width: 100%;
   text-align: center;
@@ -551,7 +552,7 @@ section.whats-trending .right-image .thumb .hover-effect .inner-content {
           transform: translateY(-50%);
 }
 
-section.whats-trending .right-image .thumb .hover-effect .inner-content h4 {
+section.whats-Pictures .right-image .thumb .hover-effect .inner-content h4 {
   margin-bottom: 10px;
   -webkit-transform: translateX(-30px);
           transform: translateX(-30px);
@@ -560,7 +561,7 @@ section.whats-trending .right-image .thumb .hover-effect .inner-content h4 {
   transition: all .5s;
 }
 
-section.whats-trending .right-image .thumb .hover-effect .inner-content h4 a {
+section.whats-Pictures .right-image .thumb .hover-effect .inner-content h4 a {
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
@@ -568,7 +569,7 @@ section.whats-trending .right-image .thumb .hover-effect .inner-content h4 a {
   letter-spacing: 0.5px;
 }
 
-section.whats-trending .right-image .thumb .hover-effect .inner-content span {
+section.whats-Pictures .right-image .thumb .hover-effect .inner-content span {
   font-size: 15px;
   color: #ffffff;
   display: inline-block;
@@ -579,28 +580,28 @@ section.whats-trending .right-image .thumb .hover-effect .inner-content span {
   transition: all .5s;
 }
 
-section.whats-trending .right-image .thumb:hover .hover-effect {
+section.whats-Pictures .right-image .thumb:hover .hover-effect {
   opacity: 1;
   visibility: visible;
 }
 
-section.whats-trending .right-image .thumb:hover .hover-effect .inner-content h4 {
+section.whats-Pictures .right-image .thumb:hover .hover-effect .inner-content h4 {
   opacity: 1;
   -webkit-transform: translateX(0px);
           transform: translateX(0px);
 }
 
-section.whats-trending .right-image .thumb:hover .hover-effect .inner-content span {
+section.whats-Pictures .right-image .thumb:hover .hover-effect .inner-content span {
   -webkit-transform: translateX(0px);
           transform: translateX(0px);
   opacity: 1;
 }
 
-section.whats-trending .right-image .thumb img {
+section.whats-Pictures .right-image .thumb img {
   border-radius: 7.5px;
 }
 
-section.whats-trending .right-image::after {
+section.whats-Pictures .right-image::after {
   width: 440px;
   height: 300px;
   right: -440px;
@@ -608,7 +609,7 @@ section.whats-trending .right-image::after {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
-  background: url(../images/whats-trending-right-image.png);
+  background: url(../images/whats-Pictures-right-image.png);
   content: '';
 }
 
@@ -1349,51 +1350,51 @@ section.explore-item .projects-pagination .left-content span {
   color: #7a7a7a;
 }
 
-section.trending-page .card {
+section.Pictures-page .card {
   border: none;
 }
 
 @media (min-width: 650px) {
-  section.trending-page .grid-item {
+  section.Pictures-page .grid-item {
     width: 100%;
   }
 }
 
 @media (min-width: 850px) {
-  section.trending-page .grid-item {
+  section.Pictures-page .grid-item {
     width: 50%;
   }
 }
 
 @media (min-width: 1200px) {
-  section.trending-page .grid-item {
+  section.Pictures-page .grid-item {
     width: 33%;
   }
 }
 
 @media (min-width: 1400px) {
-  section.trending-page .grid-item {
+  section.Pictures-page .grid-item {
     width: 25%;
   }
 }
 
-section.trending-page .trending-item {
+section.Pictures-page .Pictures-item {
   margin-bottom: 20px;
 }
 
 @media (min-width: 1200px) {
-  section.trending-page .trending-item {
+  section.Pictures-page .Pictures-item {
     margin-bottom: 30px;
   }
 }
 
-section.trending-page .trending-item .thumb {
+section.Pictures-page .Pictures-item .thumb {
   border-radius: 7.5px;
   position: relative;
   overflow: hidden;
 }
 
-section.trending-page .trending-item .thumb span.banner {
+section.Pictures-page .Pictures-item .thumb span.banner {
   background-color: #7664c6;
   color: #ffffff;
   font-size: 14px;
@@ -1407,7 +1408,7 @@ section.trending-page .trending-item .thumb span.banner {
   z-index: 2;
 }
 
-section.trending-page .trending-item .thumb .hover-effect {
+section.Pictures-page .Pictures-item .thumb .hover-effect {
   position: absolute;
   z-index: 2;
   width: 100%;
@@ -1416,14 +1417,14 @@ section.trending-page .trending-item .thumb .hover-effect {
   transition: all .5s;
 }
 
-section.trending-page .trending-item .thumb .hover-effect .inner-content {
+section.Pictures-page .Pictures-item .thumb .hover-effect .inner-content {
   padding: 20px 30px;
   border-bottom-left-radius: 7.5px;
   border-bottom-right-radius: 7.5px;
   background-color: #7664c6;
 }
 
-section.trending-page .trending-item .thumb .hover-effect .inner-content h4 {
+section.Pictures-page .Pictures-item .thumb .hover-effect .inner-content h4 {
   font-size: 18px;
   font-weight: 700;
   text-transform: capitalize;
@@ -1432,26 +1433,26 @@ section.trending-page .trending-item .thumb .hover-effect .inner-content h4 {
   margin-right: 20px;
 }
 
-section.trending-page .trending-item .thumb .hover-effect .inner-content a.icon {
+section.Pictures-page .Pictures-item .thumb .hover-effect .inner-content a.icon {
   color: #ffffff;
   right: 30px;
   bottom: 18px;
   position: absolute;
 }
 
-section.trending-page .trending-item .thumb img {
+section.Pictures-page .Pictures-item .thumb img {
   border-radius: 7.5px;
   -webkit-transition: all 1s;
   transition: all 1s;
   z-index: 1;
 }
 
-section.trending-page .trending-item .thumb:hover img {
+section.Pictures-page .Pictures-item .thumb:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-section.trending-page .trending-item .thumb:hover .hover-effect {
+section.Pictures-page .Pictures-item .thumb:hover .hover-effect {
   bottom: 0;
 }
 
