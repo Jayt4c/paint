@@ -1564,4 +1564,8 @@ section.contact-us-page .right-info ul li span {
   font-size: 15px;
   color: #ffffff;
 }
-/*# sourceMappingURL=style.css.map */
+@media (max-width: 475px) {
+  .navbar-light .navbar-nav .nav-item .active {
+    color: #fff;
+  }
+}
