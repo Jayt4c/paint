@@ -13,7 +13,7 @@ body {
   width: 8em;
 }
 .navbar>.container{
-  background: #464646;
+  background: #fff
 }
 
 @media (min-width: 768px) {
@@ -285,7 +285,7 @@ header.nav-scrolled .main-navigation .navbar-nav .nav-item .active {
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link {
-  color: #ffffff;
+  color: #7664c6;
   font-size: 15px;
   font-weight: 400;
   padding: 12px 20px;
@@ -301,7 +301,7 @@ header.nav-scrolled .main-navigation .navbar-nav .nav-item .active {
 
 .navbar-light .navbar-nav .nav-item .active {
   font-weight: 400;
-  color: #7664c6;
+  color: #09090a;
   background-color: transparent;
   border-radius: 0px;
   border-top: none;
